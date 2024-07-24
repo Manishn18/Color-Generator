@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.color-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.color-button {
+    padding: 10px 20px;  /* Decrease padding */
+    font-size: 16px;     /* Decrease font size */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #333333;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 0 10px;      /* Add margin for spacing */
+}
+
+.color-button:hover {
+    background-color: #555555;
+}
+
+.color-button:active {
+    transform: scale(0.95);
+}
+
+.disco-button {
+    padding: 10px 20px;  /* Match padding with color button */
+    font-size: 16px;     /* Match font size with color button */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #444444;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 0 10px;      /* Add margin for spacing */
+}
+
+.disco-button:hover {
+    background-color: #666666;
+}
+
+.disco-button:active {
+    transform: scale(0.95);
+}
